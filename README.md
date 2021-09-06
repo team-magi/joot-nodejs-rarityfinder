@@ -4,15 +4,7 @@
 
 ```shell
 ├── config
-│   └── cache
 │   └── database
-│   └── dev
-│   └── index
-│   └── message
-│   └── oauth
-│   └── site
-│   └── switch
-│   └── uploader
 ├── middlewares
 │   └── router
 │   └── cors
