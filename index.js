@@ -3,7 +3,7 @@ var express = require('express');
 // middlewares
 var forcehttps = require('./middlewares/forcehttps');
 var cors = require('./middlewares/cors');
-var routerIndex = require('./middlewares/router');
+var routerIndex = require('./router');
 
 // init server
 var app = express();
