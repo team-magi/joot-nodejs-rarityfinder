@@ -18,7 +18,7 @@ router.get('/getContractList', async function (req, res) {
 });
 
 router.get('/getInfo', async function(req, res) {
-    let tokenId = req.query.tokenId;
+    let tokenId = req.query.tokenId || 1;
     let sql = `SELECT * from loot where tokenId = "${tokenId}" LIMIT 1`;
     let [rows] = await pool.query(sql);
     let info = rows[0];
